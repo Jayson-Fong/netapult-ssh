@@ -6,7 +6,8 @@ build-backend = "hatchling.build"
 name = "netapult-ssh"
 version = "0.0.1"
 dependencies = [
-    "netapult==0.0.1"
+    "netapult==0.0.1",
+    "paramiko>=4.0.0"
 ]
 requires-python = ">=3.11"
 authors = [
