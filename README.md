@@ -41,7 +41,7 @@ with netapult.dispatch.dispatch(
 
     # Acquire the banner
     banner: str = client.read(text=True)
-    prompt_found, result = client.run_command("wall test1\n", text=True)
+    prompt_found, result = client.run_command("echo Hello World\n", text=True)
 
     print("Banner:", banner)
     print("Result:", result)
