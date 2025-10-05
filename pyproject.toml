@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "netapult-ssh"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
     "netapult==0.0.2",
     "paramiko>=4.0.0"
