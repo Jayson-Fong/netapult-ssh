@@ -40,7 +40,7 @@ jobs:
 
   pypi-publish:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    if: github.event.release.target_commitish == 'main'
     needs:
       - release-build
     permissions:
