@@ -25,9 +25,9 @@ This package registers a `ssh` protocol handler for Netapult, usable from Netapu
 ```python
 import time
 
-import netapult.dispatch
+import netapult
 
-with netapult.dispatch.dispatch(
+with netapult.dispatch(
     "generic", # Use the generic client
     "ssh", # Use our SSH protocol
     protocol_options={
